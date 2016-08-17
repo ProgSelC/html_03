@@ -8,7 +8,7 @@ body {
     margin: 0 auto;
     padding: 50px 40px;
     background-color: #fff;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, .4);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
 }
 
 .clearfix::after {
@@ -23,7 +23,7 @@ body {
 
 .top-menu {
     margin: 40px 0;
-    background: linear-gradient(to top, #444, #5e5e5e);
+    background: linear-gradient(to top, #444343, #5e5e5e);
 }
 
 .top-menu li {
@@ -38,6 +38,8 @@ body {
 .top-menu li a {
     display: block;
     padding: 0 24px;
+    border-right: solid 1px transparent;
+    border-left: solid 1px transparent;
     color: #fff;
     font-size: 14px;
     line-height: 40px;
@@ -45,7 +47,6 @@ body {
 }
 
 .top-menu li a:hover {
-    padding: 0 23px;
     border-right: solid 1px #838383;
     border-left: solid 1px #838383;
     background: linear-gradient(to top, #2e2e2e, #4a4a4a);
@@ -68,6 +69,7 @@ body {
     display: block;
     width: 214px;
     padding-left: 23px;
+    transition: all .3s;
     color: #656565;
     font-size: 13px;
     line-height: 39px;
